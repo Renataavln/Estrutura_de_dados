@@ -1,0 +1,49 @@
+Resultados (Tempo em milissegundos)
+--------------------------------------------------
+
+=== Testando vetores de tamanho: 1000 ===
+Instância 1:
+  - Insertion Sort: 1.39618 ms
+  - Selection Sort: 1.73772 ms
+Instância 2:
+  - Insertion Sort: 1.37468 ms
+  - Selection Sort: 1.73652 ms
+Instância 3:
+  - Insertion Sort: 1.39706 ms
+  - Selection Sort: 1.73778 ms
+Instância 4:
+  - Insertion Sort: 1.3515 ms
+  - Selection Sort: 1.73689 ms
+
+=== Testando vetores de tamanho: 10000 ===
+Instância 1:
+  - Insertion Sort: 63.4017 ms
+  - Selection Sort: 83.7231 ms
+Instância 2:
+  - Insertion Sort: 62.6198 ms
+  - Selection Sort: 85.7944 ms
+Instância 3:
+  - Insertion Sort: 62.098 ms
+  - Selection Sort: 85.6352 ms
+Instância 4:
+  - Insertion Sort: 62.1189 ms
+  - Selection Sort: 84.7121 ms
+
+=== Testando vetores de tamanho: 100000 ===
+Instância 1:
+  - Insertion Sort: 6212.67 ms
+  - Selection Sort: 8269.53 ms
+Instância 2:
+  - Insertion Sort: 6212.92 ms
+  - Selection Sort: 8667.56 ms
+Instância 3:
+  - Insertion Sort: 6247.91 ms
+  - Selection Sort: 8688.53 ms
+Instância 4:
+  - Insertion Sort: 6231.78 ms
+  - Selection Sort: 8567.11 ms
+
+==================================================
+TEMPO TOTAL GERAL:
+Total Insertion Sort: 25161 ms
+Total Selection Sort: 34539.5 ms
