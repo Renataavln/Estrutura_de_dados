@@ -1,0 +1,50 @@
+Resultados (Tempo em milissegundos)
+Pasta de origem: instancias-num/
+--------------------------------------------------
+
+=== Testando vetores de tamanho: 1000 ===
+Instância 1:
+  - Merge Sort: 0.208243 ms
+  - Quick Sort: 0.080194 ms
+Instância 2:
+  - Merge Sort: 0.202789 ms
+  - Quick Sort: 0.075669 ms
+Instância 3:
+  - Merge Sort: 0.213167 ms
+  - Quick Sort: 0.070515 ms
+Instância 4:
+  - Merge Sort: 0.21141 ms
+  - Quick Sort: 0.072165 ms
+
+=== Testando vetores de tamanho: 10000 ===
+Instância 1:
+  - Merge Sort: 2.36455 ms
+  - Quick Sort: 0.990553 ms
+Instância 2:
+  - Merge Sort: 2.36442 ms
+  - Quick Sort: 1.03376 ms
+Instância 3:
+  - Merge Sort: 2.29364 ms
+  - Quick Sort: 1.02531 ms
+Instância 4:
+  - Merge Sort: 2.35853 ms
+  - Quick Sort: 1.0302 ms
+
+=== Testando vetores de tamanho: 100000 ===
+Instância 1:
+  - Merge Sort: 26.2421 ms
+  - Quick Sort: 22.2838 ms
+Instância 2:
+  - Merge Sort: 25.9135 ms
+  - Quick Sort: 22.7853 ms
+Instância 3:
+  - Merge Sort: 25.8166 ms
+  - Quick Sort: 22.5676 ms
+Instância 4:
+  - Merge Sort: 26.1146 ms
+  - Quick Sort: 22.7234 ms
+
+==================================================
+TEMPO TOTAL GERAL:
+Total Merge Sort: 114.304 ms
+Total Quick Sort: 94.7385 ms

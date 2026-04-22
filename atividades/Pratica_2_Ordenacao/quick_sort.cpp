@@ -1,7 +1,7 @@
 #include "quick_sort.h"
 
-int partition(std::vector<int>& A, int low, int high){
-  int pivo = A[high];
+int partition(std::vector<long long>& A, int low, int high){
+  long long pivo = A[high];
   int i = low - 1;
 
   for(int j = low; j <= high -1; j++){
@@ -16,7 +16,7 @@ int partition(std::vector<int>& A, int low, int high){
   return i+1;
 }
 
-void quickSort(std::vector<int>& A, int low, int high) {
+void quickSort(std::vector<long long>& A, int low, int high) {
   if(low < high){
     int aux = partition(A, low, high);
 

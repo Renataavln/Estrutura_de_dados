@@ -1,10 +1,10 @@
 #include "merge_sort.h"
 
-void merge(std::vector<int>& A, int left, int mid, int right){
+void merge(std::vector<long long>& A, int left, int mid, int right){
   int n1 = mid - left+1;
   int n2 = right - mid;
 
-  std::vector<int> v_left(n1), v_right(n2);
+  std::vector<long long> v_left(n1), v_right(n2);
 
   for(int i = 0; i < n1; i++){
     v_left[i] = A[left+i];
@@ -43,7 +43,7 @@ void merge(std::vector<int>& A, int left, int mid, int right){
   }
 }
 
-void mergeSort(std::vector<int>& A, int left, int right) {
+void mergeSort(std::vector<long long>& A, int left, int right) {
   if(left < right){
     int mid = left + (right - left)/2;
     mergeSort(A, left, mid);

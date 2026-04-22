@@ -3,6 +3,6 @@
 
 #include <vector>
 
-void quickSort(std::vector<int>& A, int low, int high);
+void quickSort(std::vector<long long>& A, int low, int high);
 
 #endif

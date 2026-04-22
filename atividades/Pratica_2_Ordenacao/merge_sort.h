@@ -3,7 +3,7 @@
 
 #include <vector>
 
-void mergeSort(std::vector<int>& A, int left, int right);
-void imprimirVetor(const std::vector<int>& A); // Você pode reaproveitar essa função
+void mergeSort(std::vector<long long>& A, int left, int right);
+void imprimirVetor(const std::vector<long long>& A);
 
 #endif
