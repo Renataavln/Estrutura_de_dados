@@ -6,7 +6,7 @@ Para compilar é necessário rodar o comando ```make``` no terminal.
 
 ## 1. Entrada manual (via terminal)
 
-Após compilar, execute o programa e insira o tamanho do vetor e os elementos manualmente:
+Após compilar, execute o programa:
 
 ```./pratica2```
 
